@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sierra</title>
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;
+       background:#0e1116;color:#e6edf3;font:16px/1.7 -apple-system,"Segoe UI",system-ui,sans-serif}
+  main{max-width:660px;padding:40px}
+  h1{font-size:28px;margin:0 0 14px;font-weight:600}
+  code{background:#1b2129;padding:2px 6px;border-radius:4px;font-size:13px;color:#8ab4f8}
+  p{margin:8px 0;color:#9aa7b4}
+  li{color:#9aa7b4;font-size:14px;margin:4px 0}
+  hr{border:0;border-top:1px solid #232a33;margin:22px 0}
+</style>
+</head>
+<body>
+<main>
+  <h1>hello,this is my first web.（8080端口）</h1>
+  <p>成功删除占位符。</p>
+  <hr>
+  <ul>
+    <li>网站根目录：<code>/var/www/site2/index.html</code> ——文件位置。</li>
+    <li>访问地址：<code>http://43.139.164.5:8080/</code></li>
+    <li>Nginx 配置：<code>/etc/nginx/sites-available/site2</code></li>
+    <li>独立日志：<code>/var/log/nginx/site2.access.log</code></li>
+  </ul>
+  <p style="font-size:12px;color:#5f6b78">本站与 80 端口的 Portfolio 完全隔离：独立目录、独立端口、独立日志。</p>
+</main>
+</body>
+</html>
